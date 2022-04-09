@@ -2,6 +2,9 @@ function compute()
 {
     
     p = document.getElementById("principal").value;
+    if (p == ""){
+        alert("Don't leave the 'Amount' field empty!")
+    }
     r = document.getElementById("rate").value;
     y = document.getElementById("years").value;
 
