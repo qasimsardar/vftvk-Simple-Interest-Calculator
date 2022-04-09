@@ -5,6 +5,9 @@ function compute()
     if (p == ""){
         alert("Don't leave the 'Amount' field empty!")
     }
+    else if(p <= '0'){
+        alert("Enter a value greater than 0")
+    }
     r = document.getElementById("rate").value;
     y = document.getElementById("years").value;
 
